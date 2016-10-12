@@ -1,0 +1,32 @@
+{
+  "name": "udpmessager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "udpmessager": "./index.js"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyapub/udpmessager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miyapub/udpmessager/issues"
+  },
+  "homepage": "https://github.com/miyapub/udpmessager#readme",
+  "dependencies": {
+    "hapi": "^15.1.1",
+    "inert": "^4.0.2",
+    "localhostips": "^1.0.0"
+  }
+}
