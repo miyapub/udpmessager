@@ -16,9 +16,13 @@ function send(msg) {
 
 module.exports = function (request, reply) {
     var msg = request.payload.msg;//post    get  params
-    send(msg);
+    var err = 1;
+    if (msg) {
+        send(msg);
+        err = 0;
+    }
     var json = {
-        err: 0,
+        err: err,
         msg: msg,
     };
     return reply(json);

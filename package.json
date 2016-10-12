@@ -27,6 +27,8 @@
   "dependencies": {
     "hapi": "^15.1.1",
     "inert": "^4.0.2",
-    "localhostips": "^1.0.0"
+    "jsonio": "^1.0.1",
+    "localhostips": "^1.0.0",
+    "moment": "^2.15.1"
   }
 }
